@@ -1,0 +1,24 @@
+
+<suit>
+	<test name="Spicejet_popup">
+
+		<classes>
+			<class name="TestNG.Spicejet_Popup">
+
+				<methods>
+
+					<include name="f"></include>
+
+				</methods>
+
+			</class>
+
+
+		</classes>
+
+
+	</test>
+
+
+
+</suit>

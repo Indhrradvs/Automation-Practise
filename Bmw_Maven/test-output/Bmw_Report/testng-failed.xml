@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Bmw_Report]">
+  <test name="chromeTest(failed)">
+    <classes>
+      <class name="com.bmw.bmw_HomePage">
+        <methods>
+          <include name="bmw_TC3"/>
+        </methods>
+      </class> <!-- com.bmw.bmw_HomePage -->
+      <class name="com.bmw.bmw_searchpage">
+        <methods>
+          <include name="config"/>
+        </methods>
+      </class> <!-- com.bmw.bmw_searchpage -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Bmw_Report] -->

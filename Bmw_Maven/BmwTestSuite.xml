@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Bmw_Report">
+
+<test name="chromeTest">
+	
+	<classes>
+		<class name="com.bmw.bmw_searchpage"></class>
+		<class name="com.bmw.bmw_HomePage"> </class>
+	</classes>
+
+</test>
+
+
+
+
+
+</suite>

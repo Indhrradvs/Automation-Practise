@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chromeTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.170">
+  <properties />
+  
+  
+            <testcase name="LX_002" time="9.381" classname="com.LexusCars.Lexus_Search" />
+                <testcase name="LX_001" time="0.789" classname="com.LexusCars.Lexus_Search" />
+      
+</testsuite>

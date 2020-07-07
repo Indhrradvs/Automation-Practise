@@ -1,0 +1,22 @@
+
+<suite name="Spicejet SUIT"> 
+
+	<test name="Spicejet Results">
+
+		<classes>
+
+			<class name="TestNG.WebTable_Handling">
+
+				<methods>
+					
+					<include name="f"></include>	
+						
+				</methods>
+						
+			</class>
+		
+		</classes>
+		
+	</test>
+
+</suite>

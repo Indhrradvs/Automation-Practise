@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bmw_Report" duration-ms="29708" started-at="2018-12-18T18:05:16Z" finished-at="2018-12-18T18:05:45Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="29708" started-at="2018-12-18T18:05:16Z" finished-at="2018-12-18T18:05:45Z">
+      <class name="com.bmw.bmw_searchpage">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.bmw.bmw_searchpage@1324409e]" name="config" is-config="true" duration-ms="7360" started-at="2018-12-18T13:05:16Z" finished-at="2018-12-18T13:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="bmw_TC1()[pri:0, instance:com.bmw.bmw_searchpage@1324409e]" name="bmw_TC1" duration-ms="4340" started-at="2018-12-18T13:05:23Z" finished-at="2018-12-18T13:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmw_TC1 -->
+        <test-method status="PASS" signature="bmw_TC2()[pri:0, instance:com.bmw.bmw_searchpage@1324409e]" name="bmw_TC2" duration-ms="10358" started-at="2018-12-18T13:05:27Z" finished-at="2018-12-18T13:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmw_TC2 -->
+      </class> <!-- com.bmw.bmw_searchpage -->
+      <class name="com.bmw.bmw_HomePage">
+        <test-method status="PASS" signature="bmw_TC3()[pri:0, instance:com.bmw.bmw_HomePage@15975490]" name="bmw_TC3" duration-ms="7630" started-at="2018-12-18T13:05:38Z" finished-at="2018-12-18T13:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmw_TC3 -->
+      </class> <!-- com.bmw.bmw_HomePage -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Bmw_Report -->
+</testng-results>

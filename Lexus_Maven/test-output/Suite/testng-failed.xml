@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.LexusCars.Lexus_ListenersClass"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="chromeTest(failed)">
+    <parameter name="LBrowser" value="chrome"/>
+    <classes>
+      <class name="com.LexusCars.Lexus_Link">
+        <methods>
+          <include name="LX_003"/>
+        </methods>
+      </class> <!-- com.LexusCars.Lexus_Link -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="2" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="LBrowser" value="firefox"/>
+    <classes>
+      <class name="com.LexusCars.Lexus_Link">
+        <methods>
+          <include name="LX_003"/>
+        </methods>
+      </class> <!-- com.LexusCars.Lexus_Link -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="tests" name="Suite" thread-count="2">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.LexusCars.Lexus_ListenersClass" />
+	</listeners>
+
+	<test name="chromeTest">
+		<parameter name="LBrowser" value="chrome" />
+		<classes>
+			<class name="com.LexusCars.Lexus_Search" />
+			<class name="com.LexusCars.Lexus_Link" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="FirefoxTest">
+		<parameter name="LBrowser" value="firefox" />
+		<classes>
+			<class name="com.LexusCars.Lexus_Search" />
+			<class name="com.LexusCars.Lexus_Link" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
